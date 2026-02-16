@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HealthData>
+<HealthData locale="en_US">
+  <ExportDate value="2024-02-15 12:00:00 -0500"/>
+  <Me HKCharacteristicTypeIdentifierDateOfBirth="1990-01-01" 
+      HKCharacteristicTypeIdentifierBiologicalSex="HKBiologicalSexMale"/>
+  
+  <!-- Sample step count records -->
+  <Record type="HKQuantityTypeIdentifierStepCount" 
+          sourceName="iPhone" 
+          value="1234" 
+          unit="count" 
+          creationDate="2024-02-15 08:00:00 -0500" 
+          startDate="2024-02-15 07:00:00 -0500" 
+          endDate="2024-02-15 08:00:00 -0500"/>
+  
+  <Record type="HKQuantityTypeIdentifierStepCount" 
+          sourceName="Apple Watch" 
+          value="5678" 
+          unit="count" 
+          creationDate="2024-02-15 12:00:00 -0500" 
+          startDate="2024-02-15 08:00:00 -0500" 
+          endDate="2024-02-15 12:00:00 -0500"/>
+  
+  <!-- Sample heart rate record -->
+  <Record type="HKQuantityTypeIdentifierHeartRate" 
+          sourceName="Apple Watch" 
+          value="72" 
+          unit="count/min" 
+          creationDate="2024-02-15 10:00:00 -0500" 
+          startDate="2024-02-15 10:00:00 -0500" 
+          endDate="2024-02-15 10:00:00 -0500"/>
+  
+  <!-- Sample workout -->
+  <Workout workoutActivityType="HKWorkoutActivityTypeRunning" 
+           duration="30" 
+           durationUnit="min" 
+           totalDistance="5.0" 
+           totalDistanceUnit="km" 
+           totalEnergyBurned="300" 
+           totalEnergyBurnedUnit="kcal" 
+           sourceName="Apple Watch" 
+           creationDate="2024-02-15 09:00:00 -0500" 
+           startDate="2024-02-15 08:30:00 -0500" 
+           endDate="2024-02-15 09:00:00 -0500"/>
+</HealthData>
